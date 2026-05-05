@@ -1,14 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Set character encoding and responsive viewport -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Page title shown in the browser tab -->
     <title>My Portfolio</title>
+    <!-- Link the stylesheet for visual styling -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Main heading visible on the page -->
-    <h1>My Portfolio</h1>
+    <!-- Page header with title and welcome message -->
+    <header>
+        <h1>My Portfolio</h1>
+        <p>Welcome to my personal portfolio site.</p>
+    </header>
+
+    <main>
+        <!-- About section with a short bio -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I am a developer learning Git, GitHub, and AWS. I built this site as part of a hands-on project to practice version control and cloud deployment.</p>
+        </section>
+
+        <!-- Projects section with placeholder cards -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Project One</h3>
+                    <p>A project related to Amazon LEX. 
+
+Creating a chatbot for:<br>
+1. Checking bank balance<br>
+2. Adding intent and slots<br>
+3. Connecting to lambda<br>
+4.  Retain information<br>
+5. Transfer money</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project Two</h3>
+                    <p>This Project is based on how to use Terraform to automate the deployment of an S3 bucket.
+Create S3 bucket without the use of the console.
+
+                    </p>
+                </div>
+                <div class="project-card">
+                    <h3>Project Three</h3>
+                    <p>A Project to understand the Basics of Terraform.
+1. Terraform init, plan, apply.
+2. Adding a resource to AWS
+3. Utilizing diffeent files eg-variables,outputs,.tfvars
+4.Creating backup for statefile
+5.Creating different workspaces
+</div> 
+
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer with tools credit -->
+    <footer>
+        <p>Built with HTML, CSS, Git, and AWS S3.</p>
+    </footer>
 </body>
 </html>
